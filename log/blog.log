@@ -1,0 +1,127 @@
+2022-07-31 16:44:58.017  INFO 840 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Starting AtmProjectApplication using Java 18.0.1.1 on DESKTOP-6S8K907 with PID 840 (C:\Users\berka\IdeaProjects\Atm Project\target\classes started by Anet01 in C:\Users\berka\IdeaProjects\Atm Project)
+2022-07-31 16:44:58.020  INFO 840 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 16:44:58.103  INFO 840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 16:44:58.975  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:44:58.977  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-31 16:44:58.992  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2022-07-31 16:44:59.011  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:44:59.012  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 16:44:59.023  INFO 840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-31 16:44:59.750  INFO 840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 16:44:59.817  INFO 840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-31 16:45:00.063  INFO 840 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 16:45:00.193  INFO 840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 16:45:00.570  INFO 840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 16:45:00.587  INFO 840 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-31 16:45:00.854  INFO 840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 16:45:00.866  INFO 840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:01.279  WARN 840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-31 16:45:01.314  INFO 840 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Started AtmProjectApplication in 3.876 seconds (JVM running for 5.027)
+2022-07-31 16:45:01.326  INFO 840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:01.331  INFO 840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-31 16:45:01.341  INFO 840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-31 16:45:13.560  INFO 14756 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Starting AtmProjectApplication using Java 18.0.1.1 on DESKTOP-6S8K907 with PID 14756 (C:\Users\berka\IdeaProjects\Atm Project\target\classes started by Anet01 in C:\Users\berka\IdeaProjects\Atm Project)
+2022-07-31 16:45:13.562  INFO 14756 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 16:45:13.630  INFO 14756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 16:45:14.392  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:45:14.393  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-31 16:45:14.404  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2022-07-31 16:45:14.418  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:45:14.418  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 16:45:14.425  INFO 14756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-07-31 16:45:14.939  INFO 14756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 16:45:15.005  INFO 14756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-31 16:45:15.179  INFO 14756 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 16:45:15.288  INFO 14756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 16:45:15.450  INFO 14756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 16:45:15.465  INFO 14756 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-31 16:45:15.820  INFO 14756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 16:45:15.834  INFO 14756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:16.276  INFO 14756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-31 16:45:16.314  INFO 14756 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Started AtmProjectApplication in 3.22 seconds (JVM running for 4.28)
+2022-07-31 16:45:16.333  INFO 14756 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:16.338  INFO 14756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-31 16:45:16.348  INFO 14756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-31 16:45:43.028  INFO 19300 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Starting AtmProjectApplication using Java 18.0.1.1 on DESKTOP-6S8K907 with PID 19300 (C:\Users\berka\IdeaProjects\Atm Project\target\classes started by Anet01 in C:\Users\berka\IdeaProjects\Atm Project)
+2022-07-31 16:45:43.030  INFO 19300 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 16:45:43.098  INFO 19300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 16:45:43.654  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:45:43.655  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-31 16:45:43.666  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2022-07-31 16:45:43.681  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:45:43.681  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 16:45:43.687  INFO 19300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-07-31 16:45:44.153  INFO 19300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 16:45:44.213  INFO 19300 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-31 16:45:44.367  INFO 19300 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 16:45:44.480  INFO 19300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 16:45:44.631  INFO 19300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 16:45:44.646  INFO 19300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-31 16:45:44.873  INFO 19300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 16:45:44.885  INFO 19300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:45.238  INFO 19300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-31 16:45:45.270  INFO 19300 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Started AtmProjectApplication in 2.69 seconds (JVM running for 3.565)
+2022-07-31 16:45:45.282  INFO 19300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:45:45.285  INFO 19300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-31 16:45:45.292  INFO 19300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-31 16:46:48.712  INFO 2560 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Starting AtmProjectApplication using Java 18.0.1.1 on DESKTOP-6S8K907 with PID 2560 (C:\Users\berka\IdeaProjects\Atm Project\target\classes started by Anet01 in C:\Users\berka\IdeaProjects\Atm Project)
+2022-07-31 16:46:48.714  INFO 2560 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 16:46:48.838  INFO 2560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 16:46:49.605  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:46:49.617  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-31 16:46:49.628  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2022-07-31 16:46:49.644  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:46:49.644  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 16:46:49.649  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-07-31 16:46:50.193  INFO 2560 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 16:46:50.289  INFO 2560 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-31 16:46:50.443  INFO 2560 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 16:46:50.594  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 16:46:50.763  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 16:46:50.788  INFO 2560 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-31 16:46:51.055  INFO 2560 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 16:46:51.066  INFO 2560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:46:51.155  WARN 2560 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#2e4325a0' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2e4325a0': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'auditorAware' available
+2022-07-31 16:46:51.155  INFO 2560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:46:51.159  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-31 16:46:51.166  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-31 16:46:51.177  INFO 2560 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-31 16:46:51.202 ERROR 2560 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAware' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAware' in your configuration.
+
+2022-07-31 16:47:34.571  INFO 6864 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Starting AtmProjectApplication using Java 18.0.1.1 on DESKTOP-6S8K907 with PID 6864 (C:\Users\berka\IdeaProjects\Atm Project\target\classes started by Anet01 in C:\Users\berka\IdeaProjects\Atm Project)
+2022-07-31 16:47:34.574  INFO 6864 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 16:47:34.648  INFO 6864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 16:47:35.506  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:47:35.507  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-31 16:47:35.518  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2022-07-31 16:47:35.532  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-31 16:47:35.533  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 16:47:35.539  INFO 6864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-07-31 16:47:36.111  INFO 6864 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 16:47:36.171  INFO 6864 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-31 16:47:36.358  INFO 6864 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 16:47:36.516  INFO 6864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 16:47:36.676  INFO 6864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 16:47:36.690  INFO 6864 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-31 16:47:37.460  INFO 6864 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 16:47:37.484  INFO 6864 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:47:37.879  INFO 6864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-31 16:47:37.912  INFO 6864 --- [restartedMain] c.atm.atmproject.AtmProjectApplication   : Started AtmProjectApplication in 3.888 seconds (JVM running for 5.087)
+2022-07-31 16:47:37.924  INFO 6864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 16:47:37.928  INFO 6864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-31 16:47:37.935  INFO 6864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
