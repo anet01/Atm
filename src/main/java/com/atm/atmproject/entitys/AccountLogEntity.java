@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serial;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 
@@ -14,27 +16,22 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "accountLog")
-public class AccountLogEntity extends BaseEntity{
+@Table(name = "account_log")
+public class AccountLogEntity extends BaseEntity implements Serializable {
 
-    @Id
-    @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(name = "accountId")
+    @Column(name = "account_id")
     private Long accountId;
 
-    @Column(name = "userId")
+    @Column(name = "user_id")
     private Long userId;
 
-    @Column(name = "transactionDetail")
+    @Column(name = "transaction_detail")
     private int transactionDetail;
 
-    @Column(name = "sendedUserId")
+    @Column(name = "sended_user_id")
     private int sendingUserId;
 
-    @Column(name = "sendedAmount")
+    @Column(name = "sended_amount")
     private BigDecimal sendedAmount;
 
 }

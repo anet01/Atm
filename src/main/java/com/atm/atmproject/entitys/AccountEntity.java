@@ -22,7 +22,7 @@ public class AccountEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "userid")
+    @Column(name = "user_id")
     private Long userId;
 
     @Column(name = "balance")

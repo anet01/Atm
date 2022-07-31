@@ -2,8 +2,8 @@ package com.atm.atmproject.entitys;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import lombok.extern.log4j.Log4j2;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -11,22 +11,18 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class UserEntity extends BaseEntity implements Serializable {
 
-    @Id
-    @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(name = "userName")
-    private String username;
+    @Column(name = "user_name")
+    private String userName;
 
     @Column(name = "password")
     @JsonIgnore
     private String password;
 
     @Column(name = "locked")
+    @JsonIgnore
     private Boolean locked;
 
 

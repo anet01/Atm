@@ -16,7 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Entity
 @Table(name = "admin")
-public class AdminEntity extends BaseEntity implements Serializable {
+public class AdminEntity implements Serializable {
 
     @Id
     @Column(name = "id", nullable = false)

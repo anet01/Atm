@@ -2,6 +2,7 @@ package com.atm.atmproject.entitys;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jdk.jfr.BooleanFlag;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -18,9 +19,18 @@ import java.util.Date;
 
 @Getter
 @Setter
+
+//Hibernate Jpa
+@MappedSuperclass
+
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"created_date,update_date"}, allowGetters = true) //İçerdiği jsonları yoksayar
 public class BaseEntity {
+
+    @Id
+    @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column(name = "deleted")
     private Boolean deleted;
