@@ -8,7 +8,7 @@ public interface userService {
 
     public UserDto updatePassword(UserDto userDto) throws Throwable;
     public UserDto createUser(UserDto userDto);
-    public UserDto deleteUser(UserDto userDto) throws Exception;
+    public UserDto deleteUser(UserDto userDto) throws Throwable;
 
 
     //Model Mapper

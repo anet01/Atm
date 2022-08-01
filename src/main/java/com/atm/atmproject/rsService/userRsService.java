@@ -29,7 +29,6 @@ public class userRsService {
     @PostMapping("/delete")
     public ResponseEntity<UserDto> userDelete(@RequestBody UserDto userDto) throws Throwable {
 
-
         return ResponseEntity.ok(userService.deleteUser(userDto));
     }
 }

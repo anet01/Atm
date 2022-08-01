@@ -6,13 +6,7 @@ import com.atm.atmproject.entitys.UserEntity;
 import com.atm.atmproject.repository.userDao;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 @Controller
 public class userServiceImpl implements userService {
@@ -52,17 +46,22 @@ public class userServiceImpl implements userService {
     }
 
     @Override
-    public UserDto deleteUser(UserDto userDto) throws Exception {
+    public UserDto deleteUser(UserDto userDto) throws Throwable {
         UserEntity userEntity = dtoToEntity(userDto);
-        UserEntity user = (UserEntity) userDao.findById(userEntity.getId())
-                .orElseThrow(()-> new Exception("Kullanıcı bulunamadı. Id: " + userEntity.getId()));
+        UserEntity user = userDao.findById(userEntity.getId())
+                .orElseThrow(()-> new IllegalStateException("Kullanıcı bulunamadı. Id: " + userEntity.getId()));
 
         if (user.getPassword().equals(userEntity.getPassword())) {
-            user.setDeleted(true);
-            userDao.save(user);
-            userDto = entityToDto(user);
+            if(!user.getDeleted()){
+                user.setDeleted(true);
+                userDao.save(user);
+                userDto = entityToDto(user);
+            }
+            else {
+             throw new IllegalStateException("Kullanıcı zaten silinmiş.");
+            }
         } else {
-            throw new IllegalAccessException("Şifre doğru değil");
+            throw new IllegalAccessException("Şifre doğru değil.");
         }
 
 
