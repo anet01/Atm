@@ -11,6 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 @Controller
 public class userServiceImpl implements userService {
 
@@ -21,8 +24,23 @@ public class userServiceImpl implements userService {
     private ModelMapper modelMapper;
 
     @Override
-    public ResponseEntity<UserDto> updatePassword(Long id, UserDto userDto) throws Throwable {
-        return null;
+    public UserDto updatePassword(UserDto userDto) throws Exception {
+        UserEntity userEntity = dtoToEntity(userDto);
+        UserEntity user = (UserEntity) userDao.findById(userEntity.getId())
+                .orElseThrow(()-> new Exception("Kullanıcı bulunamadı. Id: " + userEntity.getId()));
+
+        if(user.getPassword().equals(userEntity.getPassword())){
+            user.setPassword(userDto.getNewPassword());
+            userDao.save(user);
+            userDto = entityToDto(user);
+
+        }
+        else {
+            throw new IllegalAccessException("Şifre doğru değil");
+        }
+
+
+        return userDto;
     }
 
     @Override
@@ -34,13 +52,29 @@ public class userServiceImpl implements userService {
     }
 
     @Override
-    public UserDto deleteUser(UserDto employeeDto) {
-        return null;
+    public UserDto deleteUser(UserDto userDto) throws Exception {
+        UserEntity userEntity = dtoToEntity(userDto);
+        UserEntity user = (UserEntity) userDao.findById(userEntity.getId())
+                .orElseThrow(()-> new Exception("Kullanıcı bulunamadı. Id: " + userEntity.getId()));
+
+        if (user.getPassword().equals(userEntity.getPassword())) {
+            user.setDeleted(true);
+            userDao.save(user);
+            userDto = entityToDto(user);
+        } else {
+            throw new IllegalAccessException("Şifre doğru değil");
+        }
+
+
+        return userDto;
+
+
     }
 
     @Override
-    public UserDto entityToDto(UserEntity employeeEntity) {
-        return null;
+    public UserDto entityToDto(UserEntity userEntity) {
+        UserDto userDto = modelMapper.map(userEntity, UserDto.class);
+        return userDto;
     }
 
     @Override
