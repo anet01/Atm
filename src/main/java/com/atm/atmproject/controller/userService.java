@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 
 public interface userService {
 
-    public UserDto updatePassword(UserDto userDto) throws Throwable;
+    public ResponseEntity<UserDto> updatePassword(Long id, UserDto userDto) throws Throwable;
     public UserDto createUser(UserDto userDto);
-    public UserDto deleteUser(UserDto userDto) throws Exception;
+    public UserDto deleteUser(UserDto userDto);
 
 
     //Model Mapper
