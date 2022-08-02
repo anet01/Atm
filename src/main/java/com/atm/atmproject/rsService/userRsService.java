@@ -2,6 +2,7 @@ package com.atm.atmproject.rsService;
 
 import com.atm.atmproject.controller.impl.userServiceImpl;
 import com.atm.atmproject.dto.UserDto;
+import com.atm.atmproject.exception.RsServiceResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

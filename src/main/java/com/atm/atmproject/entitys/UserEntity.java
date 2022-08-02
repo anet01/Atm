@@ -23,7 +23,7 @@ public class UserEntity extends BaseEntity implements Serializable {
 
     @Column(name = "locked")
     @JsonIgnore
-    private Boolean locked;
+    private Boolean locked = false;
 
 
 }
